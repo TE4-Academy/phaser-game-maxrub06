@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phaser Basics</title>
+    <!-- Phaser 3 från CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Samla Mynt-spelet</h1>
+        <p>Använd piltangenterna för att röra dig och samla gula mynt!</p>
+
+        <!-- Spel-området -->
+        <div id="game-container"></div>
+
+        <!-- Statistik -->
+        <div class="stats">
+            <p>Poäng: <span id="score">0</span></p>
+            <p>Mynt kvar: <span id="coins-left">5</span></p>
+            <!-- TODO: Lägg till fler statistik som tid, high score, etc. -->
+        </div>
+
+        <!-- Debug-område -->
+        <div class="debug">
+            <h3>Debug-info:</h3>
+            <p>Spelare X: <span id="debug-x">-</span></p>
+            <p>Spelare Y: <span id="debug-y">-</span></p>
+            <p>Mynt samlade: <span id="debug-collected">-</span></p>
+            <p>Game state: <span id="debug-state">-</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+/* Phaser Basics CSS - har några problem som du behöver fixa! */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    /* Väldigt liten margin? */
+    background-color: white;
+    /* Kanske lite tråkigt? */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    /* För liten padding? */
+    /* Ingen bakgrund eller skugga? Ser platt ut */
+}
+
+h1 {
+    text-align: left;
+    /* Borde kanske vara centrerad? */
+    color: black;
+    /* Lite tråkig färg? */
+    margin-bottom: 10px;
+    /* För liten margin? */
+}
+
+/* Game container */
+#game-container {
+    text-align: center;
+    margin: 20px 0;
+    /* Kanske behöver en ram runt spelet? */
+}
+
+canvas {
+    /* Ingen styling för canvas? */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Statistik */
+.stats {
+    background-color: #f0f0f0;
+    padding: 5px;
+    /* För liten padding? */
+    text-align: center;
+    margin: 10px 0;
+    font-size: 12px;
+    /* För liten text? */
+    /* Kanske behöver bättre styling? */
+}
+
+.stats span {
+    font-weight: bold;
+    color: black;
+    /* Kanske lite tråkig färg? */
+}
+
+/* Debug-område */
+.debug {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 4px solid #007acc;
+    font-size: 12px;
+    /* Kanske för liten text? */
+}
+
+.debug h3 {
+    margin-top: 0;
+    color: #007acc;
+}
+
+.debug span {
+    font-weight: bold;
+    color: #d63384;
+    font-family: monospace;
+}
+
+/* TODO: Lägg till styling för win/lose meddelanden */
+/* .win-message { } */
+/* .lose-message { } */
